@@ -1,0 +1,249 @@
+/* цвет основного текста color: #212121;  */
+/* вторичный цвет текста  color: #757575;*/
+/* белый #FFFFFF  */
+/* акцент color: #2196F3;*/
+/* footer background: #2F303A; 
+WEB color: #2196F3;
+header STUDIO color: #000000;
+footer STUDIO  color: #FFFFFF;
+фон кнопки #F5F4FA;
+фон фото #EEEEEE;
+*/
+
+/* 
+font-family: 'Oleo Script', cursive;  
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  --maine-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --header-studio-color: #000000;
+  --hero-background: #2f303a;
+  --footer-background: #2f303a;
+  --button-secondary-background: #f5f4fa;
+}
+
+body {
+  color: var(--maine-text-color);
+  background-color: var(--primary-white-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+/* LOGO */
+
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.header-studio {
+  color: var(--header-studio-color);
+}
+
+.footer-studio {
+  color: var(--primary-white-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+/* Навігація + контакти */
+
+.site-nav .link,
+.contact .link {
+  color: var(--maine-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* КОНТАКТИ */
+
+.contact .link {
+  color: var(--secondary-text-color);
+}
+
+/* ХОВЕР та ФОКУС для Навігація + контакти ) */
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+
+/* ПОТОЧНА СТОРІНКА */
+
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+/* BUTTON */
+
+.button {
+  color: var(--maine-text-color);
+  background-color: var(--button-secondary-background);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  display: flex;
+}
+
+/* HERO button */
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* кнопки-фільтри на ст.портфоліо */
+
+.button.secondary {
+  color: var(--maine-text-color);
+  background-color: var(--button-secondary-background);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* ПОРТФОЛІО */
+/* НАЗВИ проектів */
+
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/* ТИПИ проектів */
+
+.portfolio .type {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: var(--footer-background);
+}
+
+.footer .link {
+  color: var(--primary-white-color);
+  font-style: normal;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.footer .mail,
+.footer .tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* INDEX.HTML */
+
+/* Section 1. */
+/* HERO */
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero {
+  background-color: var(--hero-background);
+}
+
+/* Section 2.  Benefits*/
+
+.benefits h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits p {
+  color: var(--secondary-text-color);
+  line-height: 1.71;
+}
+
+/* Section 3. JOB=Чем мы занимаемся*/
+
+.job h2,
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Section 4. Наша команда */
+
+.team {
+  background-color: var(--button-secondary-background);
+}
+
+/* ІМЕНА ПРАЦІВНИКІВ */
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* спеціальність */
+.team p {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* ============================================== */
+
+/*   body
+  color: var(--maine-text-color);
+  background-color: var(--primary-white-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+} */
