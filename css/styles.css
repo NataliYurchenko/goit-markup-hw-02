@@ -189,6 +189,10 @@ footer {
 
 .hero {
   background-color: var(--hero-background);
+  /* display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; */
 }
 
 /* Section 2.  Benefits*/
